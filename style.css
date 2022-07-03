@@ -1,21 +1,36 @@
 li{
     display: inline;
     float:left
+
     
 
 }
-a{
+li a{
     display: block;
-    padding-right: 80px;
-    position: absolute;
-    padding-left: 100px;
+    padding: 0px;
     background-color: #ddd;
-    width: 70px;
+    
 }
 
 .container{
     width: 50px;
     margin: 0%;
 }
+
 h3{align-items: center;
+}
+ul{
+    list-style-type: none;
+    margin: 70;
+    padding: 100;
+    background-color:aliceblue;
+    position:relative
+    top: 0;
+    width: 100%;
+    
+}
+h1{
+    text-align: left;
+    padding-bottom: 50px;
+    color: blue;
 }
