@@ -7,9 +7,11 @@ li{
 }
 li a{
     display: block;
-    padding: 0px;
+    padding: 8px;
     background-color: #ddd;
-    
+    color: black;
+    text-align: center;
+    padding-inline-end: 100px;
 }
 
 .container{
@@ -21,16 +23,21 @@ h3{align-items: center;
 }
 ul{
     list-style-type: none;
-    margin: 70;
-    padding: 100;
+    margin: 0;
+    padding: 0;
     background-color:aliceblue;
-    position:relative
-    top: 0;
-    width: 100%;
-    
+    position:fixed
+    width: 10px, 15px;
+    overflow:horizontal
+    border:active
 }
 h1{
-    text-align: left;
-    padding-bottom: 50px;
-    color: blue;
+    text-align:right
+    margin:end
+    padding:right
+
+    
+}
+body{
+    margin:auto;
 }
