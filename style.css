@@ -1,6 +1,21 @@
-*li{
-    padding-right: 0%;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 200;
+li{
+    display: inline;
+    float:left
+    
+
+}
+a{
+    display: block;
+    padding-right: 80px;
+    position: absolute;
+    padding-left: 100px;
+    background-color: #ddd;
+    width: 70px;
+}
+
+.container{
+    width: 50px;
+    margin: 0%;
+}
+h3{align-items: center;
 }
