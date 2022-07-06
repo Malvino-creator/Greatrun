@@ -1,0 +1,159 @@
+*{
+    margin: 10;
+    padding: 0;
+}
+
+nav{
+    display:flex;
+    flex box-sizing: 100%;
+    padding: 10px 50px;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    list-style:none;
+    float nav-right:100%;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    
+    position: relative;
+}
+.nav-links ul li a{
+    color: 2549D3;
+    text-decoration: none;
+}
+a :hover{
+    color: #0F298B;
+    font-size: x-large;
+}
+p{
+    text-align: left;
+}
+#sectionA{
+    display:flex;
+    padding: 20px;
+    text-align: left;
+}
+#sectionB{
+    display:flex;
+    padding: 20px;
+    text-align:center;
+}
+#helping {
+    
+    position: relative;
+    text-align: left;
+    display: flex;
+}
+#Works{
+ display: flex;
+ padding: 20;
+ text-align: center;
+}
+
+#Works .box1{
+    background-clip: border-box;
+    box-shadow: 3px 3px 1em;
+}
+
+#Works .box2{
+    background-clip: border-box;
+    box-shadow: 3px 3px 1em;
+}
+
+#Works .box3{
+    background-clip: border-box;
+    box-shadow: 3px 3px 1em;
+}
+
+.description ul li{
+    display:flex
+}
+#Why{
+    display:flex;
+    padding: 50PX;
+}
+
+.customers {
+    color: #2549D3;
+    text-align: center;
+}
+
+.link1{
+    float:right;
+    clear:left;
+}
+
+#conclusion{
+    display:flex;
+    text-align:left;
+    list-style:none;
+    padding: 30;
+    margin:0;
+    background-color: #0F298B;
+    color: #fafafa;
+}
+
+*{
+    padding:0;
+    margin:10px;
+    font-style: space;
+    font-size: 30;
+}
+
+p{
+    text-align: center;
+}
+
+h2{
+    color: #2549D3;
+    text-align: left;
+}
+
+h3{
+    color: #2549D3;
+    text-align: left;
+}
+
+h4{
+    color: #2549D3;
+    text-align: center;
+}
+
+h5{
+    color: #2549D3;
+    text-align: center;
+}
+
+h6{
+    color: #2549D3;
+    text-align: center;
+}
+
+
+h8{
+    color: black;
+    text-align: center;
+}
+h9{
+    color: black;
+    text-align: left;
+}
+
+h10{
+    color:#fafafa;
+    text-align: center;
+}
+
+ol,ul {
+    list-style: none;
+    display: inline;
+}
+
+li{
+    padding: 10px;
+}
