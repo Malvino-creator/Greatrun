@@ -28,7 +28,7 @@ nav{
 }
 
 a{
-    image position: right: 100px
+    image position,100px
 
 }
 
@@ -51,26 +51,6 @@ p{
     position: relative;
     text-align: left;
     display: flex;
-}
-#Works{
- display: flex;
- padding: 20;
- text-align: center;
-}
-
-#Works .box1{
-    background-clip: border-box;
-    box-shadow: 3px 3px 1em;
-}
-
-#Works .box2{
-    background-clip: border-box;
-    box-shadow: 3px 3px 1em;
-}
-
-#Works .box3{
-    background-clip: border-box;
-    box-shadow: 3px 3px 1em;
 }
 
 .description ul li{
@@ -132,6 +112,7 @@ h4{
 h5{
     color: #2549D3;
     text-align: center;
+    flex: content;
 }
 
 h6{
@@ -162,4 +143,13 @@ ol,ul {
 
 li{
     padding: 10px;
+}
+.products .productopt{
+    text-align: center;
+
+}
+.products{
+    color: #0F298B;
+    font-size: 20px;
+    font-weight: 300;
 }
