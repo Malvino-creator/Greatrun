@@ -5,12 +5,12 @@
 
 nav{
     display:flex;
-    flex box-sizing: 100%;
+    box-sizing: 100%;
     padding: 10px 50px;
     justify-content: space-between;
     border-bottom: 1px solid grey;
     list-style:none;
-    float nav-right:100%;
+    
 }
 .nav-links{
     flex: 1;
@@ -28,7 +28,7 @@ nav{
 }
 a :hover{
     color: #0F298B;
-    font-size: x-large;
+    /* font-size: x-large; */
 }
 p{
     text-align: left;
@@ -46,7 +46,7 @@ p{
 #helping {
     
     position: relative;
-    text-align: left;
+    text-align: left ; 
     display: flex;
 }
 #Works{
@@ -156,4 +156,25 @@ ol,ul {
 
 li{
     padding: 10px;
+}
+
+button{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px;
+}
+button:hover{
+    color: white;
+    background-color: green;
+    
+}
+
+.help{
+    text-align: center;
+    color: #0F298B !important;
+    
 }
