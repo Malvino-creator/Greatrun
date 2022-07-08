@@ -2,7 +2,14 @@
     margin: 10;
     padding: 0;
 }
+    
 
+#head {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
 nav{
     display:flex;
     flex box-sizing: 100%;
@@ -29,9 +36,7 @@ nav{
 
 a{
     image position,100px
-
 }
-
 
 p{
     text-align: left;
@@ -76,9 +81,10 @@ p{
     text-align:left;
     list-style:none;
     padding: 30;
-    margin:0;
+    margin: 1px;0;
     background-color: #0F298B;
     color: #fafafa;
+
 }
 
 *{
@@ -107,6 +113,9 @@ h3{
 h4{
     color: #2549D3;
     text-align: center;
+    display: inline-flexbox;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
 h5{
@@ -152,4 +161,19 @@ li{
     color: #0F298B;
     font-size: 20px;
     font-weight: 300;
+}
+.c1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pgraph {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.title{
+    font-style: italic;
+    font-weight: 300;
+
 }
